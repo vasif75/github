@@ -1,0 +1,30 @@
+body {background-color: antiquewhite}
+
+h1{
+    color: green;
+    font-size: 20px;
+    background-color: yellow;
+    text-align: center;
+}
+
+fieldset{
+background-color: pink;
+
+}
+input, textarea {
+    background-color: lightgoldenrodyellow;
+
+}
+label {
+    color: darkblue;
+    font-weight: bold;
+
+}
+.lang {
+    color: green;
+
+}
+legend{
+    color: red;
+    font-size: 30px;
+}

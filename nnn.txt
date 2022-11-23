@@ -1,0 +1,22 @@
+<table>
+            <thead>
+              <th>Name</th>
+              <th>city</th>
+              <th>phone</th>
+          </thead>
+          <tbody>
+              <tr>
+                     <td>John</td>
+                     <td>Dasllas</td>
+                     <td>1234</td>
+              </tr>
+             
+              <tr>
+                     <td>sam</td>
+                     <td>LA</td>
+                     <td>5678</td>
+              </tr>
+          </tbody>
+  
+
+             </table>

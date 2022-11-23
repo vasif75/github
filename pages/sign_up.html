@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Sign up page</title>
+<link rel="stylesheet" type="text/css" href="sign_up.css">
+</head>
+<body>
+
+    <a href="../index.html"> HOME </a>
+<h1> Please Complete the Sign up</h1>
+<form>
+<fieldset> 
+    
+    <legend>Open an Account</legend>
+
+<label> Full Name : </label><br>
+<input type="text" placeholder="enter your name"/><br><br>
+<label> User Name : </label><br>
+<input type="text" placeholder="enter your username"/><br><br>
+<label> Password : </label><br>
+<input type="password" placeholder="enter your password"/><br><br>
+<label> Re-type Password : </label><br>
+<input type="password" placeholder="re-type your password"/><br><br>
+<label> E-mail : </label><br>
+<input type="email" placeholder="enter your e-mail"/><br><br>
+
+<!-- Checkbox elements may OR may not have same name attributes -->
+<label> Languages: </label><br>
+
+<input type="checkbox" name="English" /> <label class="lang">English</label><br>
+<input type="checkbox" name="Spanish"/> <label class="lang">Spanish</label><br>
+<input type="checkbox" name="French" /> <label class="lang">French</label><br>
+<br>
+
+<!-- Radio Elements should have the same name attributes to have only one selection -->
+<label>Gender: </label><br>
+<input type="radio" name="gender" /> <label class="lang">Male </label><br>
+<input type="radio" name="gender" /> <label class="lang">Female</label> <br>
+<input type="radio" name="gender" /> <label class="lang">Others</label> <br><br>
+
+<label>Select Your Birthday : </label><br>
+<input type="date" /><br>
+<input type="datetime-local" /><br><br>
+<!-- dropdown: select tag is used to creat a dropdown-->
+<label>Country: </label><br>
+<select> 
+    <option selected>  -- None -- </option>
+<option value="USA"> USA </option>
+<option value="Taiwan"> Taiwan</option>
+<option value="Turkiye"> Turkiye </option>
+<option value="Netherlands"> Netherlands </option>
+</select>
+<br><br>
+
+<label>Select your color: </label><br>
+<input type="color" /> <br><br>
+
+<label>Upload a file: </label><br>
+<input type="file"> <br><br>
+
+<label>Description: </label><br>
+<textarea rows="10" cols="30" placeholder="How was your day?"></textarea><br><br>
+
+<!-- buttons-->
+<input type="submit" value="Click Me!" /> <br><br>
+<button> Submit</button>
+
+
+</fieldset>
+</form>
+
+
+</body>
+</html>
